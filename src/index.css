@@ -1,0 +1,201 @@
+/* Global */
+
+body{
+  font-family: 'Montserrat';
+    text-align: center;
+}
+
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* Title section */
+#title{
+  text-align: left;
+  /* padding: 2% 7% 6%; */
+}
+
+.nb{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100vw;
+}
+
+.n-b{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 50%;
+}
+
+.nav-link{
+  font-family: 1.5rem;
+  font-size: 'Montserrat-light';
+  font-weight: 500;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+
+.heading-big{
+  font-size: 5rem;
+  line-height: 1.2;
+  color: black;
+  padding: 0 0 3rem;
+}
+
+
+
+@media (max-width:1200px)
+{
+  .n-b{
+    padding-right: 35%;
+  }
+
+}
+
+.inbetween-section{
+  padding: 4rem 0;
+}
+
+.g-icon{
+  margin-right: 10px;
+  font-size: 1.7rem;
+}
+
+/* Chats Page */
+
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-color: #002766;
+}
+
+.logo-tab {
+  position: absolute;
+  left: 22px;
+  top: -0px;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+}
+
+.logout-tab {
+  position: fixed;
+  top: 20px;;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#sign-page {
+  /* background-color: aliceblue; */
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#sign-card {
+  position: relative;
+  top: calc(50vh - 144px);
+  left: calc(50vw - 210px);
+  /* margin: 70%; */
+  padding-top: 33px;
+  padding-bottom: 40px;
+  width: 315px;
+  left: 40%;
+  text-align: center;
+  background-color: white;
+  border-radius: 22px;
+}
+
+.but-row{
+  padding: 0rem 2rem 2rem 6rem;
+}
+
+/* carauosel section */
+
+#pics
+{
+  background-color: rgb(255, 244, 244);
+  padding: 4% 7%;
+}
+
+.testimonial-img{
+  width: 100%;
+  border-radius: 25%;
+  padding: 4rem 8rem 6rem;
+  text-align: center;
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
+
+
+/* Pricing */
+#pricing{
+  text-align: center;
+  padding: 7% 7%;
+}
+
+.price-heading{
+  font-size: 3rem;
+  line-height: 1.3;
+}
+
+.pricing-card-header-heading{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+
+/* footer */
+
+#footer{
+  /* text-align: center; */
+  background-color: rgb(255, 244, 244);
+  text-align: center;
+  padding: 2%;
+}
+
+.footer-icon{
+  padding: 25px;
+  margin-bottom: 10rem;
+}
